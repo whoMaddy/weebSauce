@@ -1,6 +1,6 @@
 <?php
     session_start();
-    $_SESSION['email'] = 'admin@email.com';
+    $_SESSION['user_email'] = 'admin@email.com';
     include 'includes/header.inc.php';
 ?>
 
