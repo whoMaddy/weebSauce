@@ -7,14 +7,14 @@
             <div class="flexRow" id="productDisplay">
                 <div class="product flexRow">
                     <div class="product-small-img flexCol">
-                        <img src="..\public\images\productPictures\blackHoodie.jpg" alt="" onclick="makeItBig(this)" class="curvBorder">
-                        <img src="..\public\images\productPictures\headbands.jpg" alt="" onclick="makeItBig(this)" class="curvBorder">
-                        <img src="..\public\images\productPictures\haikyuuFigures.jpg" alt="" onclick="makeItBig(this)" class="curvBorder">
-                        <img src="..\public\images\productPictures\wig.jpg" alt="" onclick="makeItBig(this)" class="curvBorder">
-                        <img src="..\public\images\productPictures\senpaiShirt.jpg" alt="" onclick="makeItBig(this)" class="curvBorder">
+                        <img src="public\images\productPictures\blackHoodie.jpg" alt="" onclick="makeItBig(this)" class="curvBorder">
+                        <img src="public\images\productPictures\headbands.jpg" alt="" onclick="makeItBig(this)" class="curvBorder">
+                        <img src="public\images\productPictures\haikyuuFigures.jpg" alt="" onclick="makeItBig(this)" class="curvBorder">
+                        <img src="public\images\productPictures\wig.jpg" alt="" onclick="makeItBig(this)" class="curvBorder">
+                        <img src="public\images\productPictures\senpaiShirt.jpg" alt="" onclick="makeItBig(this)" class="curvBorder">
                     </div>
                     <div class="img-container">
-                        <img src="..\public\images\productPictures\blackHoodie.jpg" alt="" class="jumbotronCurvBorder">
+                        <img src="public\images\productPictures\blackHoodie.jpg" alt="" class="jumbotronCurvBorder">
                     </div>
                 </div>
                 <div class="flexCol" id="productDescription">

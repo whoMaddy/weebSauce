@@ -8,14 +8,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>weebSauce - Home</title>
-    <link rel="stylesheet" href="..\public\css\index.css">
-    <link rel="stylesheet" href="..\public\css\services.css">
-    <link rel="stylesheet" href="..\public\css\product.css">
-    <link rel="stylesheet" href="..\public\css\directors.css">
-    <link rel="stylesheet" href="..\public\css\about.css">
-    <link rel="stylesheet" href="..\public\css\contact.css">
-    <link rel="stylesheet" href="..\public\css\getStarted.css">
-    <link rel="stylesheet" href="..\public\css\admin.css">
+    <link rel="stylesheet" href="public\css\index.css">
+    <link rel="stylesheet" href="public\css\services.css">
+    <link rel="stylesheet" href="public\css\product.css">
+    <link rel="stylesheet" href="public\css\directors.css">
+    <link rel="stylesheet" href="public\css\about.css">
+    <link rel="stylesheet" href="public\css\contact.css">
+    <link rel="stylesheet" href="public\css\getStarted.css">
+    <link rel="stylesheet" href="public\css\admin.css">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 </head>
 <body>

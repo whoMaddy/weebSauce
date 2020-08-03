@@ -7,14 +7,14 @@
             <div class="flexRow" id="productDisplay">
                 <div class="product flexRow">
                     <div class="product-small-img flexCol">
-                        <img src="..\public\images\productPictures\animePillow.jpg" alt="" onclick="makeItBig(this)" class="curvBorder">
-                        <img src="..\public\images\productPictures\bokuNoHeroStickers.png" alt="" onclick="makeItBig(this)" class="curvBorder">
-                        <img src="..\public\images\productPictures\animeSmallPillow.jpg" alt="" onclick="makeItBig(this)" class="curvBorder">
-                        <img src="..\public\images\productPictures\bedSheet.png" alt="" onclick="makeItBig(this)" class="curvBorder">
-                        <img src="..\public\images\productPictures\lewdHoodie.jpg" alt="" onclick="makeItBig(this)" class="curvBorder">
+                        <img src="public\images\productPictures\animePillow.jpg" alt="" onclick="makeItBig(this)" class="curvBorder">
+                        <img src="public\images\productPictures\bokuNoHeroStickers.png" alt="" onclick="makeItBig(this)" class="curvBorder">
+                        <img src="public\images\productPictures\animeSmallPillow.jpg" alt="" onclick="makeItBig(this)" class="curvBorder">
+                        <img src="public\images\productPictures\bedSheet.png" alt="" onclick="makeItBig(this)" class="curvBorder">
+                        <img src="public\images\productPictures\lewdHoodie.jpg" alt="" onclick="makeItBig(this)" class="curvBorder">
                     </div>
                     <div class="img-container">
-                        <img src="..\public\images\productPictures\animePillow.jpg" alt="" class="jumbotronCurvBorder">
+                        <img src="public\images\productPictures\animePillow.jpg" alt="" class="jumbotronCurvBorder">
                     </div>
                 </div>
                 <div class="flexCol" id="productDescription">
