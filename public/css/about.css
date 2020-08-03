@@ -1,0 +1,35 @@
+#aboutBG {
+    background-image: url("../images/aboutBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#whoPart {
+    background-image: url("../images/whoBG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ideaPart {
+    background-image: url("../images/ideaBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#howPart {
+    background-image: url("../images/howBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#financePart {
+    background-image: url("../images/financeBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

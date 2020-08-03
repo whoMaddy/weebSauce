@@ -1,0 +1,27 @@
+CREATE TABLE queries (
+  query_id int(11) AUTO_INCREMENT PRIMARY KEY not null,
+  query_time DATETIME not null,
+  user_name varchar(256) not null,
+  user_email varchar(256) not null,
+  user_subject varchar(256) not null,
+  user_message text(1000) not null
+);
+
+CREATE TABLE services (
+  service_id int(11) AUTO_INCREMENT PRIMARY KEY not null,
+  service_name varchar(256) not null,
+  service_price varchar(256) not null
+);
+
+CREATE TABLE users (
+  user_id int(11) AUTO_INCREMENT PRIMARY KEY not null,
+  user_time DATETIME not null,
+  user_firstname TINYTEXT not null,
+  user_lastname TINYTEXT not null,
+  user_fullname TINYTEXT not null,
+  user_email TINYTEXT not null,
+  user_address varchar(256) not null,
+  user_interests varchar(256) not null,
+  user_pwd LONGTEXT not null,
+  user_sub varchar(256)
+);

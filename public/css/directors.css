@@ -1,0 +1,40 @@
+.mtEight {
+    margin-top: 8rem;
+}
+
+.callerId {
+    margin: 4rem auto;
+    margin-bottom: 0;
+    width: 70%;
+    display: flex;
+    border: 1px rgb(184, 184, 184) solid;
+    border-radius: 1rem;
+}
+
+div.callerId img {
+    width: 30%;
+    border-radius: 1rem;
+}
+
+.callerIdContent {
+    padding: 2rem;
+    letter-spacing: 1px;
+}
+
+.callerIdContent h2 {
+    margin-bottom: 0.2rem;
+}
+
+.callerIdContent p {
+    font-size: 1.1rem;
+}
+
+.highlightD {
+    margin-top: 0;
+    font-size: 1rem;
+    color: rgb(128, 128, 128);
+}
+
+.marginBTwo {
+    margin-bottom: 2rem;
+}

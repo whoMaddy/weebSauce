@@ -1,0 +1,24 @@
+#usersTable {
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+}
+
+#usersTable td, #userTable th {
+    border: 0.1rem solid #ddd;
+    padding: 0.2rem;
+}
+
+#usersTable tbody tr:hover {
+    background-color: #ddd;
+}
+
+#usersTable th {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.2rem;
+    text-align: left;
+    color: black;
+}

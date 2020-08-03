@@ -1,0 +1,341 @@
+html, body {
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hidden {
+    display: none;
+}
+
+.whiteC {
+    color: white;
+}
+
+.transparentColor {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.redTransColor {
+    background-color: rgba(230, 57, 57, 0.5);
+}
+
+.reddish {
+    background-color: rgb(255, 86, 100);
+}
+
+.warning {
+    background-color: #ffc107;
+}
+
+.pink {
+    background-color: rgb(255, 151, 168);
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.danger {
+    background-color: rgb(230, 57, 57);
+}
+
+.blue {
+    background-color: rgb(57, 167, 230);
+}
+
+.brownish {
+    background-color: rgb(168, 91, 72);
+}
+
+.purpleish {
+    background-color: rgb(110, 126, 196);
+}
+
+.greenish {
+    background-color: rgb(104, 214, 113);
+}
+
+.dekugreen {
+    background-color: rgb(44, 148, 131);
+}
+
+.warningBorder {
+    border: 5px solid;
+    border-color: #ffc107;
+}
+
+.pinkBorder {
+    border: 5px solid;
+    border-color: rgb(255, 151, 168);
+}
+
+.redBorder {
+    border: 5px solid;
+    border-color: rgb(230, 57, 57);
+}
+
+.brownBorder {
+    border: 5px solid;
+    border-color: rgb(168, 91, 72);
+}
+
+.purpleBorder {
+    border: 5px solid;
+    border-color: rgb(110, 126, 196);
+}
+
+.redSideBorder {
+    border-style: none none none solid;
+    border-width: 0.8rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    border-color: rgb(230, 57, 57);
+}
+
+.redSideBorderSpl {
+    border-style: solid;
+    border-width: 0.2rem 0.2rem 0.2rem 0.8rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    border-color: rgb(230, 57, 57);
+}
+
+.blueSideBorderSpl {
+    border-style: solid;
+    border-width: 0.2rem 0.8rem 0.2rem 0.2rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+    border-color: rgb(57, 167, 230);
+}
+
+.yellowSideBorderSpl {
+    border-style: solid;
+    border-width: 0.2rem 0.2rem 0.2rem 0.8rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    border-color: #ffc107;
+}
+
+.darkBlueSideBorderSpl {
+    border-style: solid;
+    border-width: 0.2rem 0.8rem 0.2rem 0.2rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+    border-color: rgb(6, 15, 39);
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+a.active {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a.gs {
+    color: white;
+}
+
+a.gs:hover {
+    color: gray;
+}
+
+a.login {
+    padding: 0.4rem;
+    border-radius: 2rem;
+    transition-duration: 0.2s;
+}
+
+a.login:hover {
+    box-shadow: 0.15rem 0.15rem gray;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 1;
+    width: 100%;
+}
+
+.navItems {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 5%;
+}
+
+.logo {
+    flex: 1 1 auto;
+    margin-left: 5%;
+    font-size: 1.8rem ;
+}
+
+.navItems a {
+    margin: 0.5rem;
+}
+
+.button {
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+}
+
+.fullScreen {
+    height: 100%;
+    min-height: 100%; /* for mozilla firefox */
+}
+
+html>body .fullScreen {
+    height: auto;
+}
+
+#headerBG {
+    background-image: url("../images/headerBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#servicesPart {
+    background-image: url("../images/servicesIndex.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#directorsPart {
+    background-image: url("../images/directorIndex.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#aboutPart {
+    background-image: url("../images/aboutIndex.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contactPart {
+    background-image: url("../images/contactIndex.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fullHeight {
+    height: 100vh;
+}
+
+.flexCol {
+    display: flex;
+    flex-flow: column;
+}
+
+.widthFifty {
+    width: 50%;
+}
+
+.flexRow {
+    display: flex;
+    flex-flow: row;
+}
+
+.jumbotron {
+    margin: auto;
+    width: 70%;
+    padding: 2rem;
+}
+
+.jumbotronCurvBorder {
+    border-radius: 0.5rem 2rem;
+}
+
+.jumbotron h1 {
+    font-size: 3.5rem;
+    font-weight: 550;
+    margin: 1.8rem 0;
+}
+
+.jumbotron h4 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.jumboBtn {
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+}
+
+.jumboBtnS {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+}
+
+.jumboFoot {
+    height: auto;
+    text-align: center;
+}
+
+.jumboFootP {
+    margin: 0.5em;
+    transform: rotate(90deg);
+}
+
+.jcBetween {
+    justify-content: space-between;
+}
+
+.rPosition {
+    text-align-last: right;
+}
+
+.curvBorder {
+    border-radius: 0.2rem;
+}
+
+#logout {
+    margin-left: 0;
+}
+
+.paddingSmall {
+    padding: 0.1rem;
+}
+
+#orderPage {
+    background-image: url("../images/orderPage.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+footer {
+    color: white;
+    background-color: rgb(63, 63, 63);
+    text-align: center;
+    bottom: 0;
+    margin-bottom: 0;
+    padding: 0.5rem;
+}

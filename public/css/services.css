@@ -1,0 +1,35 @@
+#ourServices {
+    background-image: url("../images/satanSymbol.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#firstService {
+    background-image: url("../images/megumin.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#secondService {
+    background-image: url("../images/aqua.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#thirdService {
+    background-image: url("../images/darkness.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#deliveryPart {
+    background-image: url("../images/lida.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+h4 {
+    text-align: justify;
+}

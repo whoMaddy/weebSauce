@@ -1,0 +1,27 @@
+#productDisplay {
+    margin-top: 7rem;
+}
+
+div .product {
+    padding: 1rem;
+}
+
+.product-small-img img {
+    height: 92px;
+    margin: 0 0.5rem 0.5rem 0;
+    cursor: pointer;
+    display: block;
+    opacity: 0.6;
+}
+
+.product-small-img img:hover {
+    opacity: 1;
+}
+
+.img-container img {
+    height: 500px;
+}
+
+#productDescription {
+    padding: 2rem;
+}

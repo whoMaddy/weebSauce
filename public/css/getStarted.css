@@ -1,0 +1,53 @@
+#signUpBG {
+    background-image: url("../images/signUpBG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.transparentColorSignUp {
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: 0.5s;
+}
+
+.transparentColorSignUp:hover {
+    background-color: rgba(110, 126, 196, 0.9);
+}
+
+.transparentColorLogin {
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: 0.5s;
+}
+
+.transparentColorLogin:hover {
+    background-color: rgba(230, 57, 57, 0.9);
+}
+
+#loginBG {
+    background-image: url("../images/loginBG.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.lastNameDiv {
+    margin-left: 2rem;
+}
+
+#loginPage {
+    background-image: url("../images/loginPageBG.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+#signUpPage {
+    background-image: url("../images/signupPageBG.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+#profilePage {
+    background-image: url("../images/deku.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}

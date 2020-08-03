@@ -1,0 +1,66 @@
+.mtSix {
+    margin-top: 6rem;
+}
+
+.highlightC {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: rgb(128, 128, 128);
+}
+
+.formGroup {
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 0;
+}
+
+.marginLittle {
+    margin: 0.5rem auto;
+}
+
+.marginTwo {
+    margin: 2rem auto;
+}
+
+form h3 {
+    letter-spacing: 1px;
+}
+
+p.label {
+    font-size: 1.3rem;
+}
+
+input {
+    width: 100%;
+    height: 1.5rem;
+    border: solid 2px rgb(110, 126, 196);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+input:focus {
+    border: solid 3px rgb(110, 126, 196);
+    outline: none;
+}
+
+input, textarea {
+    font-family: inherit;
+}
+
+textarea {
+    width: 80%;
+    border: solid 2px rgb(110, 126, 196);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+textarea:focus {
+    border: solid 3px rgb(110, 126, 196);
+    outline: none;
+}
+
+#contactBG {
+    background-image: url("../images/contactBG.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
