@@ -317,8 +317,12 @@ html>body .fullScreen {
     border-radius: 0.2rem;
 }
 
-#logout {
-    margin-left: 0;
+#gsNav {
+    margin-right: 0;
+}
+
+#editNav {
+    margin-right: 0;
 }
 
 .paddingSmall {

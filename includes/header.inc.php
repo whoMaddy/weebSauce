@@ -30,14 +30,14 @@
             <li>
                 <?php
                     if(isset($_SESSION['user_email'])) {
+                        if ($_SESSION['user_email'] == "admin@email.com") {
+                            echo '<a href="admin.php" class="login active warning" id="gsNav">Admin</a>';
+                        }
                         echo '
                             <a href="myProfile.php" class="login active warning" id="editNav">My Profile</a>
                             <a href="includes/logout.inc.php" class="login active danger" id="logout">Logout</a>
                             <a href="getStarted.php" class="login hidden active warning" id="gsNav">Get Started</a>
                         ';
-                        if ($_SESSION['user_email'] == "admin@email.com") {
-                            echo '<a href="admin.php" class="login active warning" id="gsNav">Admin</a>';
-                        }
                     } else {
                         echo '
                             <a href="myProfile.php" class="login hidden active warning" id="editNav">My Profile</a>
