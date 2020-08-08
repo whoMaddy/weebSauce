@@ -17,7 +17,7 @@
 ?>
 
 <?php
-    include_once 'dbh.inc.php';
+    include_once 'includes\dbh.inc.php';
 
     //create users table
     $sqlUsers = "CREATE TABLE users (
@@ -44,10 +44,10 @@
     $sqlQueries = "CREATE TABLE queries (
         query_id int(11) AUTO_INCREMENT PRIMARY KEY not null,
         query_time DATETIME not null,
-        user_name varchar(256) not null,
-        user_email varchar(256) not null,
-        user_subject varchar(256) not null,
-        user_message text(1000) not null)";
+        query_name varchar(256) not null,
+        query_email varchar(256) not null,
+        query_subject varchar(256) not null,
+        query_message text(1000) not null)";
     $result4 = mysqli_query($conn, $sqlQueries);
 ?>
 
@@ -69,9 +69,9 @@
     $result8 = mysqli_query($conn, $sqlService3);
 
     //adding one query
-    $sqlMessage = "INSERT INTO `queries`(`query_time`, `query_user`, `query_email`, `query_subject`, `query_message`) 
+    $sqlMessage = "INSERT INTO `queries`(`query_time`, `query_name`, `query_email`, `query_subject`, `query_message`) 
         VALUES (now(),'Someone','someone@email.com','Service Review','Your services are amazing and i will it recommend my friends too.')";
-    $result9 = mysqli_query($conn, $sqlAdmin);
+    $result9 = mysqli_query($conn, $sqlMessage);
 
     header("Location: index.php?database=success");
 ?>
