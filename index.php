@@ -89,6 +89,8 @@
             echo '<script>alert("Please login with admin credentials.")</script>';
         } else if ((isset($_GET['pwdChange'])) && ($_GET['pwdChange'] == "success")) {
             echo '<script>alert("Password changed successfully.")</script>';
+        } else if ((isset($_GET['database'])) && ($_GET['database'] == "success")) {
+            echo '<script>alert("Database created successfully.")</script>';
         }
     ?>
 
