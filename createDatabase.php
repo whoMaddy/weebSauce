@@ -1,7 +1,7 @@
 <?php
     $dbServernameNew = "localhost";
     $dbUsernameNew = "root";
-    $dbPasswordNew = "animesucker";
+    $dbPasswordNew = "";
     
     $connNew = mysqli_connect($dbServernameNew, $dbUsernameNew, $dbPasswordNew);
     
