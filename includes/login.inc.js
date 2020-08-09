@@ -38,6 +38,9 @@ document.title = "Login";
 //form validation for email
 const email = document.getElementById("email");
 const form = document.getElementById("form");
+
+email.focus();
+
 form.addEventListener("submit", function(e){
     let messages = [];
     var correctEmail = true;
