@@ -22,43 +22,39 @@
             </div>
         </div>
         <div class="callerId">
-            <img src="..\public\images\gps.png" alt="Gunit's Picture">
+            <img src="..\public\images\second.png" alt="Second Picture">
             <div class="callerIdContent">
-                <h2>Gunit Pal Singh (GPS)</h2>
-                <p>A photography nerd who designs the packaging of the mystery boxes 
+                <h2>Second</h2>
+                <p>A designer who designs the packaging of the mystery boxes 
                     and decide the contents of the mystery box.
                 </p>
-                <a href="https://www.instagram.com/gunitpal.singh.luthra/" target="_blank" class="jumboBtnS greenish button">Instagram</a>
             </div>
         </div>
         <div class="callerId">
-            <img src="..\public\images\rajwinder.png" alt="Rajwinder's Picture">
+            <img src="..\public\images\third.png" alt="Third Picture">
             <div class="callerIdContent">
-                <h2>Rajwinder Kaur</h2>
-                <p>She handles all the business transactions for importing the anime 
+                <h2>Third</h2>
+                <p>Handles all the business transactions for importing the anime 
                     goodies, deciding on the shipment methods and so on...
                 </p>
-                <a href="https://www.instagram.com/kaur30039/" target="_blank" class="jumboBtnS greenish button">Instagram</a>
             </div>
         </div>
         <div class="callerId">
-            <img src="..\public\images\gagandeep.png" alt="Gagandeep's Picture">
+            <img src="..\public\images\fourth.png" alt="Fourth Picture">
             <div class="callerIdContent">
-                <h2>Gagandeep Kaur</h2>
-                <p>She handles all the business meetings with the sponsors and decide 
+                <h2>Fourth</h2>
+                <p>Handles all the business meetings with the sponsors and decide 
                     on the terms and conditions of the contract.
                 </p>
-                <a href="https://www.instagram.com/_kaur_jawanda/" target="_blank" class="jumboBtnS greenish button">Instagram</a>
             </div>
         </div>
         <div class="callerId marginBTwo">
-            <img src="..\public\images\arjun.png" alt="Arjun's Picture">
+            <img src="..\public\images\fifth.png" alt="Fifth Picture">
             <div class="callerIdContent">
-                <h2>Arjun Singh</h2>
-                <p>He takes care of all the database queries regarding the subscription 
+                <h2>Fifth</h2>
+                <p>Takes care of all the database queries regarding the subscription 
                     management and reviews from the users.
                 </p>
-                <a href="https://www.instagram.com/arjun.dhanoa/" target="_blank" class="jumboBtnS greenish button">Instagram</a>
             </div>
         </div>
     </div>

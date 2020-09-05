@@ -82,10 +82,7 @@
                     authors to sponsor our project while giving us some cut also as we 
                     will be helping their artwork to gain popularity at new speeds. All 
                     the goodies are ordered in bulk which leads to economics of scale, 
-                    making this a profitable venture. When it comes to hosting the website 
-                    for our service, we will be taking help from our instructor 
-                    ‘Talia Harris’ who is allocating a Linux server for us to use as a 
-                    remote server.
+                    making this a profitable venture.
                 </h4>
             </div>
         </div>
